@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Count</h1>
+    <h5>{{session['counter']}}</h5>
+    <form action='/count'>
+    <input type="submit" value="+2">
+    </form>
+
+    <form action='/clear'>
+        <input type="submit" value="clear">
+    </form>
+</body>
+</html>
